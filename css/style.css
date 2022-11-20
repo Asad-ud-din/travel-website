@@ -1,0 +1,28 @@
+.logo-text{
+    font-family: 'Ceviche One', cursive;
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.navbar-toggler:hover {
+    box-shadow: none;
+}
+
+.card-image{
+    width: 14rem;
+}
+
+.card:hover{
+   background-color: #212529;
+   color: white;
+   cursor: pointer;
+}
+
+@media only screen and (min-width:768px)  {
+    .card-image{
+        width: 18rem;
+    }
+}
